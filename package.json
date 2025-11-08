@@ -1,0 +1,24 @@
+{
+  "name": "medical-diagnosis-api",
+  "version": "1.0.0",
+  "description": "REST API para diagnóstico médico usando TensorFlow.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "sharp": "^0.33.0",
+    "jimp": "^0.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["tensorflow", "medical", "api", "diagnosis"],
+  "author": "",
+  "license": "MIT"
+}
